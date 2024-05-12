@@ -1,0 +1,19 @@
+{
+  "name": "todo-console",
+  "version": "1.0.0",
+  "description": "manage todoist through your console",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "npx tsc && node --env-file=.env ./dist/init.js "
+  },
+  "author": "Tore Andre Orheim",
+  "license": "MIT",
+  "dependencies": {
+    "@doist/todoist-api-typescript": "^3.0.3",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11"
+  }
+}
